@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> Veg Delight Restaurant</title>
+   <link rel="icon" type="image/png" href="favicon.png">
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      color: #333;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    nav {
+      background: #7b5e5b;
+      padding: 15px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #f1c40f;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #7b5e5b;
+      margin-bottom: 40px;
+    }
+
+    .menu-section {
+      margin-bottom: 30px;
+    }
+
+    .menu-section h2 {
+      color: #7b5e5b;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #7b5e5b;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px dashed #ccc;
+      font-size: 1.1rem;
+    }
+
+    footer {
+      background: #7b5e5b;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .menu-item {
+        flex-direction: column;
+        gap: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h1>Vegetarian Menu</h1>
+
+    <!-- Starters -->
+    <div class="menu-section">
+      <h2>Starters</h2>
+      <div class="menu-item"><span>Paneer Tikka</span><span>₹250</span></div>
+      <div class="menu-item"><span>Hara Bhara Kabab</span><span>₹200</span></div>
+      <div class="menu-item"><span>Veg Spring Rolls</span><span>₹180</span></div>
+      <div class="menu-item"><span>Masala Papad</span><span>₹120</span></div>
+      <div class="menu-item"><span>Cheese Corn Balls</span><span>₹220</span></div>
+    </div>
+
+    <!-- Main Course -->
+    <div class="menu-section">
+      <h2>Main Course</h2>
+      <div class="menu-item"><span>Paneer Butter Masala</span><span>₹350</span></div>
+      <div class="menu-item"><span>Dal Makhani</span><span>₹250</span></div>
+      <div class="menu-item"><span>Mix Veg Curry</span><span>₹280</span></div>
+      <div class="menu-item"><span>Chole Masala</span><span>₹300</span></div>
+      <div class="menu-item"><span>Veg Biryani</span><span>₹300</span></div>
+      <div class="menu-item"><span>Jeera Rice</span><span>₹120</span></div>
+      <div class="menu-item"><span>Naan</span><span>₹50</span></div>
+      <div class="menu-item"><span>Garlic Naan</span><span>₹70</span></div>
+      <div class="menu-item"><span>Roti</span><span>₹40</span></div>
+    </div>
+
+    <!-- Desserts -->
+    <div class="menu-section">
+      <h2>Desserts</h2>
+      <div class="menu-item"><span>Gulab Jamun</span><span>₹120</span></div>
+      <div class="menu-item"><span>Rasgulla</span><span>₹150</span></div>
+      <div class="menu-item"><span>Kheer</span><span>₹100</span></div>
+      <div class="menu-item"><span>Jalebi</span><span>₹80</span></div>
+      <div class="menu-item"><span>Ice Cream (Vanilla / Chocolate)</span><span>₹90</span></div>
+    </div>
+
+    <!-- Drinks -->
+    <div class="menu-section">
+      <h2>Drinks</h2>
+      <div class="menu-item"><span>Masala Chai</span><span>₹50</span></div>
+      <div class="menu-item"><span>Fresh Lime Soda</span><span>₹70</span></div>
+      <div class="menu-item"><span>Mango Lassi</span><span>₹120</span></div>
+      <div class="menu-item"><span>Cold Coffee</span><span>₹150</span></div>
+      <div class="menu-item"><span>Butter Milk</span><span>₹60</span></div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 My Restaurant </p>
+  </footer>
+
+</body>
+</html>

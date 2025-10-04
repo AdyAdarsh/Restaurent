@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Veg Delight Restaurant</title>
+   <link rel="icon" type="image/png" href="favicon.png">
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Container */
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 0;
+    }
+
+    h1 {
+      text-align: center;
+      color: #7b5e5b;
+      margin-bottom: 30px;
+    }
+
+    /* Gallery Grid */
+    .gallery {
+      display: grid;
+      grid-template-columns: 1fr; 
+      gap: 15px;
+    }
+
+    .gallery figure {
+      margin: 0;
+      text-align: center;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .gallery figcaption {
+      margin-top: 8px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #444;
+    }
+
+    /* Footer */
+    footer {
+      background: #7b5e5b;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .gallery {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .gallery {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h1>Gallery</h1>
+    <div class="gallery">
+      <figure>
+        <img src="gallery_image/delicious-indian-food-tray.jpg" alt="Indo Platter">
+        <figcaption>Indo Plater</figcaption>
+      </figure>
+      <figure>
+        <img src="gallery_image/pexels-barfisch-pix-115740.jpg" alt="Salted Fries">
+        <figcaption>Salted Fries</figcaption>
+      </figure>
+      <figure>
+        <img src="gallery_image/pexels-chanwalrus-941869.jpg" alt="South Indian">
+        <figcaption>South Indian</figcaption>
+      </figure>
+      <figure>
+        <img src="gallery_image/pexels-chanwalrus-958547.jpg" alt="Indian Plater">
+        <figcaption>Indian Plater</figcaption>
+      </figure>
+      <figure>
+        <img src="gallery_image/pexels-surabhi-siddaiah-395534-1051399.jpg" alt="Allu Roti">
+        <figcaption>Allu Roti</figcaption>
+      </figure>
+      <figure>
+        <img src="gallery_image/pexels-pixabay-262897.jpg" alt="Mix Veggi">
+        <figcaption>Mix Veggi</figcaption>
+      </figure>
+      <figure>
+        <img src="gallery_image/pexels-ella-olsson-572949-1640773.jpg" alt="Pizza">
+        <figcaption>Pizza</figcaption>
+      </figure>
+      <figure>
+        <img src="gallery_image/pexels-paggiarofrancesco-1117862.jpg" alt="Naan">
+        <figcaption>Naan</figcaption>
+      </figure>
+      <figure>
+        <img src="gallery_image/pexels-owpictures-106343.jpg" alt="Fresh Salad">
+        <figcaption>Fresh Salad</figcaption>
+      </figure>
+      <figure>
+        <img src="gallery_image/pexels-ella-olsson-572949-1640773.jpg" alt="Platter">
+        <figcaption>Platter</figcaption>
+      </figure>
+      <figure>
+        <img src="gallery_image/pexels-enginakyurt-1437267.jpg" alt="Pasta">
+        <figcaption>Pasta</figcaption>
+      </figure>
+      <figure>
+        <img src="gallery_image/pexels-shantanu-pal-938952-2679501.jpg" alt="Corn">
+        <figcaption>Corn</figcaption>
+      </figure>
+      <figure>
+        <img src="gallery_image/pexels-owpictures-106343.jpg" alt="Something">
+        <figcaption>Something</figcaption>
+      </figure>
+      <figure>
+        <img src="gallery_image/pexels-chanwalrus-1059905.jpg" alt="Salad">
+        <figcaption>Salad</figcaption>
+      </figure>
+      <figure>
+        <img src="gallery_image/pexels-pixabay-262897.jpg" alt="Veggi Salad">
+        <figcaption>Veggi Salad</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 My Restaurant </p>
+  </footer>
+</body>
+</html>
