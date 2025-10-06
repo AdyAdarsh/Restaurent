@@ -8,6 +8,20 @@
 
   <link rel="stylesheet" href="style.css">
   <style>
+    .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #7b5e5b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
     body {
       font-family: Arial, sans-serif;
       background: #fafafa;
@@ -94,7 +108,11 @@
   </style>
 </head>
 <body>
-
+<header class="header">
+  <div class="logo">
+    <img src="favicon.png" alt="Restaurant Logo">
+    <span>Veg Delight Restaurant</span>
+  </div>
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -104,11 +122,12 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
+</header>
+
 
   <div class="container">
     <h1>Vegetarian Menu</h1>
 
-    <!-- Starters -->
     <div class="menu-section">
       <h2>Starters</h2>
       <div class="menu-item"><span>Paneer Tikka</span><span>₹250</span></div>
@@ -118,7 +137,6 @@
       <div class="menu-item"><span>Cheese Corn Balls</span><span>₹220</span></div>
     </div>
 
-    <!-- Main Course -->
     <div class="menu-section">
       <h2>Main Course</h2>
       <div class="menu-item"><span>Paneer Butter Masala</span><span>₹350</span></div>
@@ -132,7 +150,7 @@
       <div class="menu-item"><span>Roti</span><span>₹40</span></div>
     </div>
 
-    <!-- Desserts -->
+
     <div class="menu-section">
       <h2>Desserts</h2>
       <div class="menu-item"><span>Gulab Jamun</span><span>₹120</span></div>
@@ -142,7 +160,6 @@
       <div class="menu-item"><span>Ice Cream (Vanilla / Chocolate)</span><span>₹90</span></div>
     </div>
 
-    <!-- Drinks -->
     <div class="menu-section">
       <h2>Drinks</h2>
       <div class="menu-item"><span>Masala Chai</span><span>₹50</span></div>

@@ -8,7 +8,20 @@
 
   <link rel="stylesheet" href="style.css">
   <style>
-    /* Container */
+    .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #7b5e5b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
     .container {
       width: 90%;
       max-width: 1200px;
@@ -22,7 +35,6 @@
       margin-bottom: 30px;
     }
 
-    /* Gallery Grid */
     .gallery {
       display: grid;
       grid-template-columns: 1fr; 
@@ -53,7 +65,6 @@
       color: #444;
     }
 
-    /* Footer */
     footer {
       background: #7b5e5b;
       color: white;
@@ -76,6 +87,11 @@
   </style>
 </head>
 <body>
+ <header class="header">
+  <div class="logo">
+    <img src="favicon.png" alt="Restaurant Logo">
+    <span>Veg Delight Restaurant</span>
+  </div>
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -85,6 +101,8 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
+</header>
+
 
   <div class="container">
     <h1>Gallery</h1>
